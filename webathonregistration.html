@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>Responsive Registaration Form</title>
+        <link rel="stylesheet" href="webathonregistration.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    </head>
+    <body>
+        
+
+    
+    <div class="Content">
+        <div class="Name"> &nbsp;&nbsp;&nbsp;
+            <div class="login">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="https://www.w3schools.com/css/css_colors_rgb.asp">
+                    <button>Sign in</button>
+                </a>
+            </div>
+
+        <div class="signup">
+                <a href="https://www.w3schools.com/css/css_colors_rgb.asp">
+                    <button>Sign up</button>
+                </a>
+                </div>
+                <br> &nbsp;&nbsp;&nbsp;
+            <i class="fa fa-user"></i>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="firstname" placeholder="Enter your first name">
+            <span> &nbsp; &nbsp;
+                <i class="fa fa-user"></i>
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lastname" placeholder="Enter your last name">
+            </span>
+        </div>
+        <div class="email-phone">
+            <i class="fa fa-envelope email"></i>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com"> &emsp;&emsp;
+            <i class="fa fa-phone"></i>
+            <label for="mobile">Mobile:</label>
+            <input type="tel" id="mobile" name="mobile" placeholder="xxxxxxxxxx">
+        </div>
+        <div class="gender">
+            <label for="gender" required>Gender:</label>
+            <i class="fa-sharp fa-solid fa-person"></i>
+            <input type="radio" id="male" name="gender" value="male"/>Male &nbsp; &nbsp;
+            <i class="fa-solid fa-person-dress"></i>
+            <input type="radio" id="female" name="gender" value="female"/>Female
+        </div>
+        <div class="dob">
+            <label for="dob">Date Of Birth:</label>
+            <input type="Date" id="dob" name="dob">
+        </div>
+        <div class="Nationality">
+            &nbsp;&nbsp;&nbsp;
+            <label>Nationality:</label>
+            <select name="Nationality" id="Nationality">
+                <option>Nationality:</option>
+                <option>America</option>
+                <option>Australia</option>
+                <option>Africa</option>
+                <option>India</option>
+                <option>Russia</option>
+            </select> &emsp;&emsp13;&emsp;&emsp13;&emsp;&emsp13;&emsp;&emsp13;&emsp;&emsp13;&nbsp;
+            <label>State:</label>
+            <select name="State" id="state">
+                <option>Select State:</option>
+                <option>Telangana</option>
+                <option>Andhra Pradesh</option>
+                <option>Delhi</option>
+                <option>Maharashtra</option>
+                <option>Kolkata</option>
+            </select>
+        </div>
+        <div class="qualification">
+            <label for="qualification" required >Qualification:</label>
+            <select name="qualification" id="qualification">
+                <option value=" ">Select Qualification:</option>
+                <option value="Graduation">Graduation</option>
+                <option value="BTech.">BTech.</option>
+                <option value="MTech.">MTech.</option>
+                <option value="MCA">MCA</option>
+                <option value="BCA">BCA</option>
+                <option value="Others">Others</option>
+            </select>
+        </div>
+        <div class="Fields">
+            &nbsp;&nbsp;&nbsp;
+            <label for="Fields">Fields:</label><br> &nbsp;
+            <input type="checkbox" class="Fields" id="it" name="Fields[]" value="Advertising">Advertising<br/> &nbsp;
+            <input type="checkbox" class="Fields" id="ca" name="Fields[]" value="Architecture">Computer Architecture<br/> &nbsp;
+            <input type="checkbox" class="Fields" id="tc" name="Fields[]" value="Tele Communication">Tele Communication<br/> &nbsp;
+            <input type="checkbox" class="Fields" id="tc" name="Fields[]" value="Food Industry">Food Industry<br/> &nbsp;
+            <input type="checkbox" class="Fields" id="tc" name="Fields[]" value="Textile Industry">Textile Industry<br/> &nbsp;
+            <input type="checkbox" class="Fields" id="tc" name="Fields[]" value="Real Estate">Real Estate<br/> &nbsp;
+            <input type="checkbox" class="Fields" id="tc" name="Fields[]" value="Agriculture">Agriculture<br/> &nbsp;
+            <input type="checkbox" class="Fields" id="tc" name="Fields[]" value="Management">Management<br/> &nbsp;
+            <input type="checkbox" class="Fields" id="tc" name="Fields[]" value="Marketing">Marketing<br/> &nbsp;
+            <input type="checkbox" class="Fields" id="tc" name="Fields[]" value="Social entrepreneurship">Social entrepreneurship<br/> &nbsp;
+            <input type="checkbox" class="Fields" id="tc" name="Fields[]" value="Others">Others<br/>
+        </div>
+        <div class="password">
+            <i class="fa-solid fa-lock"></i>
+            <label for="password">Password:</label> 
+            <input type="password" id="password" name="password" maxlength="8">
+        </div>
+        <div class="Retype-Password">
+            <i class="fa-solid fa-lock"></i>
+            <label for="Retype-Password">Retype-Password:</label> 
+            <input type="Retype-Password" id="Retype-Password" name="Retype-Password" maxlength="8">
+        </div>
+        <div>
+            &emsp;
+            <input type="submit" value="Sign Up">
+        </div>    
+    </div>
+    </body>
+</html>

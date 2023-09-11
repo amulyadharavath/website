@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+footer {
+    
+    text-align: center;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: relative;
+    margin-top: 100px;
+  }
